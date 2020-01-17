@@ -1,23 +1,20 @@
 {
   "name": "react-dynamic-imported-components",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "",
-  "main": "./common_unbundled_modules/main.js",
+  "main": "./common_unbundled_modules/cjs/main.js",
+  "module": "./common_unbundled_modules/esm/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:artemxgruden/react-dynamic-imported-components.git1.0.0-alpha.1"
-  },
-  "keywords": [
-    "react"
-  ],
   "author": "Artem Gruden",
   "license": "MIT",
-  "homepage": "https://github.com/artemxgruden/react-dynamic-imported-components",
   "dependencies": {
     "react": "^16.8.0"
   },
-  "type": "module"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:artemxgruden/react-dynamic-imported-components1.0.0-alpha.2"
+  },
+  "homepage": "https://github.com/artemxgruden/react-dynamic-imported-components"
 }
